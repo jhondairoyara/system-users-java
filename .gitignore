@@ -1,0 +1,11 @@
+# Ignora carpetas y archivos de compilación
+/out/
+
+# Ignora configuración de entorno local
+.idea/
+*.iml
+
+# Ignora archivos binarios y temporales
+*.class
+*.log
+*.tmp
