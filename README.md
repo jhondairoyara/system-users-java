@@ -61,7 +61,7 @@ El módulo permite realizar operaciones CRUD (crear, leer, actualizar y eliminar
 
 ### Estructura del proyecto
 
-El repositorio contiene la implementación del módulo de gestión de usuarios para una aplicación de escritorio desarrollada en Java, como parte del proceso formativo del SENA. Este módulo permite realizar operaciones CRUD (crear, leer, actualizar y eliminar) sobre la tabla `usuario` en una base de datos MySQL, aplicando principios de programación orientada a objetos y acceso a datos con JDBC.
+El repositorio contiene la implementación del módulo de gestión de usuarios para una aplicación de escritorio desarrollada en Java, como parte del proceso formativo. Este módulo permite realizar operaciones CRUD (crear, leer, actualizar y eliminar) sobre la tabla `usuario` en una base de datos MySQL, aplicando principios de programación orientada a objetos y acceso a datos con JDBC.
 
 A continuación, se describen los elementos incluidos:
 
