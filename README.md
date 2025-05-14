@@ -49,30 +49,32 @@ El script SQL (`database.sql`) crea y relaciona las siguientes tablas:
 1. Ejecutar el archivo `database.sql` en MySQL para crear la base de datos y poblarla.
 2. Configurar correctamente los datos de conexión en `Conexion.java`.
 3. Ejecutar `Main.java` desde un entorno como IntelliJ para acceder al menú del módulo.
+4. En caso de fallo revisar el `mysql-connector` o los datos de acceso a la `Base de datos`.
 
 ---
 
 ## 📂 Contenido del repositorio
 
+Este repositorio contiene la implementación del módulo de gestión de usuarios para una aplicación de escritorio desarrollada en Java, como parte del proceso formativo del SENA.
+
+El módulo permite realizar operaciones CRUD (crear, leer, actualizar y eliminar) sobre la tabla `usuario` en una base de datos MySQL, aplicando principios de programación orientada a objetos y acceso a datos mediante JDBC.
+
+### Estructura del proyecto
+
 El repositorio contiene la implementación del módulo de gestión de usuarios para una aplicación de escritorio desarrollada en Java, como parte del proceso formativo del SENA. Este módulo permite realizar operaciones CRUD (crear, leer, actualizar y eliminar) sobre la tabla `usuario` en una base de datos MySQL, aplicando principios de programación orientada a objetos y acceso a datos con JDBC.
 
 A continuación, se describen los elementos incluidos:
 
-📁 src/ → Código fuente del proyecto (Java)
-│
-├── 📁 dao/ → Lógica de acceso a datos (clases DAO)
-│ └── UsuarioDAO.java → Implementa operaciones CRUD con JDBC
-│
-├── 📁 modelo/ → Clases del modelo de datos
-│ └── Usuario.java → Representa la entidad usuario
-│
-├── 📁 principal/ → Punto de entrada y menú del sistema
-│ └── Main.java → Contiene el menú interactivo
-│
-├── 📁 conexion/ → Configuración de conexión a la BD
-│ └── Conexion.java → Clase que establece conexión con MySQL
-│
-📄 database.sql → Script para crear y poblar la base de datos con usuarios, ciudades y departamentos
-📄 README.md → Documento con información y guía del proyecto
-📁 mysql-connector/ → Librería JDBC (MySQL Connector/J)
+- `src/` - Código fuente del proyecto
+  - `dao/`
+    - `UsuarioDAO.java` - Implementa operaciones CRUD con JDBC
+  - `modelo/`
+    - `Usuario.java` - Representa la entidad usuario
+  - `principal/`
+    - `Main.java` - Contiene el menú interactivo de la aplicación
+  - `conexion/`
+    - `Conexion.java` - Configura y gestiona la conexión con MySQL
 
+- `database.sql` - Script SQL para crear y poblar la base de datos
+- `mysql-connector/` - Librería JDBC (MySQL Connector/J)
+- `README.md` - Documento con información general y guía de uso del proyecto
