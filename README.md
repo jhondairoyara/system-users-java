@@ -54,3 +54,25 @@ El script SQL (`database.sql`) crea y relaciona las siguientes tablas:
 
 ## 📂 Contenido del repositorio
 
+El repositorio contiene la implementación del módulo de gestión de usuarios para una aplicación de escritorio desarrollada en Java, como parte del proceso formativo del SENA. Este módulo permite realizar operaciones CRUD (crear, leer, actualizar y eliminar) sobre la tabla `usuario` en una base de datos MySQL, aplicando principios de programación orientada a objetos y acceso a datos con JDBC.
+
+A continuación, se describen los elementos incluidos:
+
+📁 src/ → Código fuente del proyecto (Java)
+│
+├── 📁 dao/ → Lógica de acceso a datos (clases DAO)
+│ └── UsuarioDAO.java → Implementa operaciones CRUD con JDBC
+│
+├── 📁 modelo/ → Clases del modelo de datos
+│ └── Usuario.java → Representa la entidad usuario
+│
+├── 📁 principal/ → Punto de entrada y menú del sistema
+│ └── Main.java → Contiene el menú interactivo
+│
+├── 📁 conexion/ → Configuración de conexión a la BD
+│ └── Conexion.java → Clase que establece conexión con MySQL
+│
+📄 database.sql → Script para crear y poblar la base de datos con usuarios, ciudades y departamentos
+📄 README.md → Documento con información y guía del proyecto
+📁 mysql-connector/ → Librería JDBC (MySQL Connector/J)
+
